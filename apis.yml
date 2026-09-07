@@ -1,8 +1,9 @@
 aid: admitkard
 name: Admitkard
-description: 'Admitkard is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  AdmitKard is a Noida, India based study-abroad EdTech company, founded in 2016 by IIT-IIM alumni Piyush Bhartiya and Rachit Agrawal, that guides Indian students through the full overseas-education journey: university and course shortlisting, profile building, test preparation, applications, SOP/LOR support, scholarships, education loans, foreign-exchange remittance, student visas and accommodation. The company is an ICEF-accredited and AIRC-certified agency and raised a Rs 50 crore (about $6M) Series A led by GSV Ventures in 2023. It sells counselling services to students and universities rather than a developer product: as of this profile it publishes no public API, developer portal, SDK or machine-readable contract, and its api.admitkard.com host answers with a Cloudflare 522 origin timeout.
 url: https://raw.githubusercontent.com/api-evangelist/admitkard/refs/heads/main/apis.yml
+image: https://www.admitkard.com/admitkard-logo-color.png
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +13,14 @@ created: '2026-09-07'
 modified: '2026-09-07'
 tags:
 - Company
+- Education
+- EdTech
+- Study Abroad
+- Higher Education
+- Student Recruitment
+- Admissions
+- Counseling
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +29,40 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://equityzen.com/company/admitkard
+  url: https://www.admitkard.com/
+- type: Blog
+  url: https://www.admitkard.com/blog
+- type: GitHubOrganization
+  url: https://github.com/admitkard
+- type: TermsOfService
+  url: https://www.admitkard.com/terms
+- type: PrivacyPolicy
+  url: https://www.admitkard.com/privacy
+- type: DomainSecurity
+  url: security/admitkard-domain-security.yml
+- type: LLMsTxt
+  url: llms/admitkard-llms.txt
+x-enrichment:
+  date: '2026-09-07'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    AdmitKard sells study-abroad counselling to students, not a developer product — there is no
+    developer portal, API reference, SDK or machine-readable contract anywhere on its surface, and its
+    own API host api.admitkard.com answers every path with a Cloudflare 522 origin timeout.
+  evidence:
+  - url: https://api.admitkard.com/openapi.json
+    status: 522
+  - url: https://www.admitkard.com/openapi.json
+    status: 404
+  - url: https://www.admitkard.com/llms.txt
+    status: 404
+  - url: https://www.admitkard.com/.well-known/api-catalog
+    status: 404
+  - url: https://github.com/admitkard
+    status: 200
+  checked: '2026-09-07'

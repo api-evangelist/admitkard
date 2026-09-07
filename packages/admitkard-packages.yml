@@ -1,0 +1,17 @@
+generated: '2026-09-07'
+method: searched
+source: >-
+  Unauthenticated registry searches on 2026-09-07 — registry.npmjs.org (/-/v1/search?text=admitkard),
+  pypi.org/pypi/admitkard/json, rubygems.org/api/v1/search.json, crates.io/api/v1/crates,
+  packagist.org/search.json, azuresearch-usnc.nuget.org/query, search.maven.org/solrsearch — plus the
+  github.com/admitkard organization (4 public repos) and www.admitkard.com.
+package_count: 0
+packages: []
+note: >-
+  AdmitKard publishes no client libraries. Every registry answered with zero matching packages: npm
+  total 0 (no @admitkard scope and no unscoped package), PyPI 404 on the project JSON endpoint,
+  RubyGems [], crates.io total 0, NuGet totalHits 0, Maven Central numFound 0. The Packagist hit was
+  admitad/api, a different company (the Admitad affiliate network), and is not recorded. The public
+  GitHub organization github.com/admitkard holds 4 repositories — runpod-worker-whisperx,
+  actions, jenkins-custom and ansible-for-dev — all internal DevOps/ML tooling, none of them a client
+  SDK for an AdmitKard API. No Packages or SDKs pointer is wired, because the provider ships neither.

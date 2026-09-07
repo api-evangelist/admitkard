@@ -1,0 +1,29 @@
+# AdmitKard
+
+> AdmitKard is a Noida, India based study-abroad EdTech company founded in 2016 by Piyush Bhartiya and
+> Rachit Agrawal. It guides Indian students through the full overseas-education journey — university and
+> course shortlisting, profile building, test preparation, applications, SOP/LOR support, scholarships,
+> education loans, foreign-exchange remittance, student visas and accommodation — as a counselling
+> service, not as a developer product.
+
+## Machine-readable API surface
+
+**AdmitKard publishes no public API.** As of 2026-09-07 there is no developer portal, no API reference,
+no OpenAPI/Swagger/GraphQL/AsyncAPI contract, no SDK in any package registry, no MCP server and no A2A
+agent card on any host this profile could reach. The company's API host, `api.admitkard.com`, resolves
+through Cloudflare but its origin does not answer (HTTP 522). Nothing below should be read as an
+integration surface; there is none to integrate with.
+
+## Company
+
+- [AdmitKard](https://www.admitkard.com/): Study-abroad consulting homepage — services, destinations, counselling booking.
+- [AdmitKard Blog](https://www.admitkard.com/blog): Study-abroad guides — visas, university profiles, exams, scholarships.
+- [Terms of Service](https://www.admitkard.com/terms)
+- [Privacy Policy](https://www.admitkard.com/privacy)
+- [Refund Policy](https://www.admitkard.com/refund)
+- [GitHub organization](https://github.com/admitkard): 4 public repositories, all internal DevOps/ML tooling.
+- [Engineering blog](https://tech.admitkard.com/): Hashnode-hosted, currently with no published articles.
+
+## Optional
+
+- [API Evangelist profile](https://apis.io/provider/admitkard): the independent third-party profile this file was generated from.
